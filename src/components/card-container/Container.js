@@ -32,7 +32,7 @@ const Container = () => {
                 }
             </div>
             <div className='side'>
-                <Side cart = {cart}></Side>
+                <Side cart={cart}></Side>
             </div>
         </div>
     );
