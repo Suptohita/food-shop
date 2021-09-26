@@ -1,0 +1,11 @@
+.div-card{
+    text-align: center;
+}
+
+.cart{
+    padding: 5px 20px 5px 20px;
+    background-color:indianred;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+}

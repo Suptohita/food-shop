@@ -1,0 +1,17 @@
+body{
+    max-width: 100%;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.main{
+    flex-grow:6;
+}
+
+.side{
+    flex-grow: 1;
+}

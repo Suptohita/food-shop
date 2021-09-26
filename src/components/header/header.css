@@ -1,0 +1,10 @@
+.header{
+    padding: 20px;
+    text-align: center;
+    background: #f5d692;
+    margin-bottom: 50px;
+}
+.header h1{
+    color: indianred;
+    text-decoration: underline;
+}
