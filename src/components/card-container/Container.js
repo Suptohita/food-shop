@@ -20,19 +20,20 @@ const Container = () => {
 
     }
     
-    console.log(items)
+    // console.log(items)
 
 
 
     return (
         <div className='main-container'>
-            <div className='main'>
-                <h1>Hi there</h1>
+            <div className='main row row-cols-1 row-cols-md-3 g-4'>
                 {
                     items.map(item => <Card key={item.idMeal} item={item} addToCart = {addToCart}></Card>)
                 }
             </div>
             <div className='side'>
+                {/* <h2>Added Food: {cart.length}</h2>
+                <h2>{console.log(cart)}</h2> */}
                 <Side cart = {cart}></Side>
             </div>
         </div>

@@ -9,9 +9,9 @@ body{
 }
 
 .main{
-    flex-grow:6;
+    width: 80%;
 }
 
 .side{
-    flex-grow: 1;
+    width: 20%;
 }
