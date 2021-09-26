@@ -8,3 +8,8 @@
     color: indianred;
     text-decoration: underline;
 }
+
+.available-food{
+    color:darkorange;
+    font-weight: 700;
+}

@@ -23,7 +23,7 @@ const Card = (props) => {
                         </h5>
                         <br/>
                         <h6>Price: ${price}</h6>
-                        <button className='cart' onClick= {()=>props.addToCart()}>Add to cart</button>
+                        <button className='cart' onClick= {()=>props.addToCart(props.item)}>Add to cart</button>
                         <br/>
                         <br/>
                         <h6>Follow us:</h6>

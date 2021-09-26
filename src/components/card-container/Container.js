@@ -20,6 +20,7 @@ const Container = () => {
 
     }
     
+    console.log(items)
 
 
 
@@ -28,12 +29,10 @@ const Container = () => {
             <div className='main'>
                 <h1>Hi there</h1>
                 {
-                    items.map(item => <Card item={item} addToCart = {addToCart}></Card>)
+                    items.map(item => <Card key={item.idMeal} item={item} addToCart = {addToCart}></Card>)
                 }
             </div>
             <div className='side'>
-                {/* <h2>Added Food: {cart.length}</h2>
-                <h2>{console.log(cart)}</h2> */}
                 <Side cart = {cart}></Side>
             </div>
         </div>
