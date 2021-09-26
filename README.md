@@ -2,7 +2,7 @@
 
 🧷 For Run Site: npm start
 
-🧷 Live Site: https://app.netlify.com/sites/suptohita-food-store/overview
+🧷 Live Site: https://suptohita-food-store.netlify.app/
 
 
 🟡 Warning:
