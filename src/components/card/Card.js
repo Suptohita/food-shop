@@ -12,7 +12,6 @@ const Card = (props) => {
     const icon = <FontAwesomeIcon icon={faCarrot} />
     const social = <FontAwesomeIcon icon={faUserFriends} />
     return (
-        // <div className='row row-cols-1 row-cols-md-3 g-4 hello'>
             <div className='col div-card' style={{width: '32rem'}}>
                 <div className='card'>
                     <img src={strMealThumb} alt="" />
@@ -38,8 +37,6 @@ const Card = (props) => {
                     </div>
                 </div>
             </div>
-
-        // </div>
     );
 };
 

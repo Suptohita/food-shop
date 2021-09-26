@@ -4,7 +4,9 @@ const Side = (props) => {
     const {cart} = props
     console.log(cart)
     const total = cart?.reduce((previous, product) => previous + parseInt(product?.price), 0)
-    
+
+// cart style 
+
     const sideStyle ={
     border: '3px solid indianred',
     padding:'20px 30px', 
@@ -12,6 +14,7 @@ const Side = (props) => {
     position: 'fixed'
 }
 
+// update cart 
 
     return (
         <div style={sideStyle}>
