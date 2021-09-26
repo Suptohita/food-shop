@@ -32,8 +32,6 @@ const Container = () => {
                 }
             </div>
             <div className='side'>
-                {/* <h2>Added Food: {cart.length}</h2>
-                <h2>{console.log(cart)}</h2> */}
                 <Side cart = {cart}></Side>
             </div>
         </div>
