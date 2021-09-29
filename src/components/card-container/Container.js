@@ -40,6 +40,7 @@ const Container = () => {
             <div className='side'>
                 <Side cart={cart}></Side>
             </div>
+            
         </div>
     );
 };
